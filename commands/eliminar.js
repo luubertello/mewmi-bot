@@ -3,7 +3,7 @@ const db = require('../database');
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName('eliminar-perfil')
+    .setName('eliminar')
     .setDescription('eliminar tu perfil de Mewmi 🌙'),
 
   async execute(interaction) {
